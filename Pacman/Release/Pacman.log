@@ -1,0 +1,71 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(663): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=S2D::Input::Keys,
+              _Alloc=std::allocator<S2D::Input::Keys>
+          ]
+          and
+          [
+              _Ty=S2D::Input::Keys
+          ]
+          and
+          [
+              _Ty=S2D::Input::Keys,
+              _Alloc=std::allocator<S2D::Input::Keys>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(642): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+  c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\s2d\input.h(108): note: see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+  Pacman.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(663): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=S2D::Input::Keys,
+              _Alloc=std::allocator<S2D::Input::Keys>
+          ]
+          and
+          [
+              _Ty=S2D::Input::Keys
+          ]
+          and
+          [
+              _Ty=S2D::Input::Keys,
+              _Alloc=std::allocator<S2D::Input::Keys>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.13.26128\include\vector(642): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+  c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\s2d\input.h(108): note: see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(37): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(99): warning C4154: deletion of an array expression; conversion to pointer supplied
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(154): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(159): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(234): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(256): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(258): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(301): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(299): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(311): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\monsta\desktop\resit stuff\pacman work\pacman assessment\pacman\pacman\pacman.cpp(309): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  All 115 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Pacman.vcxproj -> C:\Users\Monsta\Desktop\RESIT STUFF\PACMAN WORK\Pacman Assessment\Pacman\Release\Pacman.exe
